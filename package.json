@@ -2,6 +2,7 @@
   "name": "gilded-rose-kata",
   "version": "1.0.0",
   "description": "Gilded Rose Kata in JS",
+  "type": "module",
   "main": "scr/gilded-rose.js",
   "directories": {
     "lib": "lib"
