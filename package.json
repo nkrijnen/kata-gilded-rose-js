@@ -2,20 +2,19 @@
   "name": "gilded-rose-kata",
   "version": "1.0.0",
   "description": "Gilded Rose Kata in JS",
-  "main": "gilded-rose.js",
+  "main": "scr/gilded-rose.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "vitest",
+    "test:ui": "vitest --ui"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
-    "babel-jest": "^27.3.1",
-    "jest": "^27.3.1"
+    "@vitest/ui": "latest",
+    "vite": "latest",
+    "vitest": "latest"
   }
 }
