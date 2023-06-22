@@ -7,10 +7,13 @@
 import { Item, Shop } from "./gilded-rose.js";
 
 const names = [
-    "..."
+    "Aged Brie",
+    "Backstage passes to a TAFKAL80ETC concert",
+    "Sulfuras, Hand of Ragnaros",
+    "Other"
 ]
-const [qualityMin, qualityMax] = [0, 1];
-const [sellInMin, sellInMax] = [0, 1];
+const [qualityMin, qualityMax] = [-1, 51];
+const [sellInMin, sellInMax] = [-1, 12];
 
 const testCases = [];
 
